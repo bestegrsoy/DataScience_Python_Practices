@@ -23,10 +23,11 @@ NumPy is a library used for multi-dimensional arrays and scientific computations
   -Includes linear algebra, Fourier transforms, and statistical functions.
 
 Example:
-
-<br>import numpy as np
+```
+import numpy as np
 arr = np.array([1, 2, 3, 4])
-print(arr.mean())  # Calculates the average<br>
+print(arr.mean())  # Calculates the average
+```
 
 ### Pandas (Python Data Analysis Library)
 Pandas is a library used for data analysis and manipulation.
@@ -38,11 +39,11 @@ Pandas is a library used for data analysis and manipulation.
   -Offers powerful features like filtering, grouping, and handling missing data.
 
 Example:
-
+```
 import pandas as pd
 df = pd.DataFrame({"Ad": ["Ahmet", "Zeynep"], "Yaş": [25, 30]})
 print(df.head())  # Shows first 5 rows
-
+```
 
 ### Matplotlib (Mathematical Plotting Library)
 Matplotlib is one of the fundamental libraries used for graphs and data visualization.
@@ -54,14 +55,14 @@ Matplotlib is one of the fundamental libraries used for graphs and data visualiz
   -Supports 2D and 3D visualizations.
 
 Example:
-
+```
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4]
 y = [10, 20, 25, 30]
 plt.plot(x, y, marker='o', linestyle='--')
 plt.title("Sample Chart")
 plt.show()
-
+```
 
 ### Seaborn
 
@@ -74,12 +75,12 @@ Seaborn is an advanced data visualization library built on top of Matplotlib.
   -Works seamlessly with Pandas DataFrames.
 
 Example:
-
+```
 import seaborn as sns
 import pandas as pd
 df = pd.DataFrame({"Category": ["A", "B", "C"], "Value": [10, 30, 20]})
 sns.barplot(x="Category", y="Value", data=df)
-
+```
 
 TR
 
@@ -106,11 +107,11 @@ NumPy, çok boyutlu diziler (arrays) ve bilimsel hesaplamalar için kullanılan 
   -Lineer cebir, Fourier dönüşümü ve istatistiksel fonksiyonlar içerir.
 
  Örnek:
-
+```
 import numpy as np
 arr = np.array([1, 2, 3, 4])
 print(arr.mean())  # Ortalamayı hesaplar
-
+```
 
 ### Pandas (Python Data Analysis Library)
 
@@ -123,11 +124,11 @@ Pandas, veri analizi ve manipülasyonu için kullanılan bir kütüphanedir.
   -Filtreleme, gruplama ve eksik veri işlemleri gibi güçlü özelliklere sahiptir.
 
 Örnek:
-
+```
 import pandas as pd
 df = pd.DataFrame({"Ad": ["Ahmet", "Zeynep"], "Yaş": [25, 30]})
 print(df.head())  # İlk 5 satırı gösterir
-
+```
 
 ### Matplotlib (Mathematical Plotting Library)
 
@@ -141,14 +142,14 @@ Matplotlib, grafik ve veri görselleştirme için kullanılan temel kütüphanel
 
 
 Örnek:
-
+```
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4]
 y = [10, 20, 25, 30]
 plt.plot(x, y, marker='o', linestyle='--')
 plt.title("Örnek Grafik")
 plt.show()
-
+```
 
 ### Seaborn
 
@@ -162,10 +163,10 @@ Seaborn, Matplotlib üzerine inşa edilmiş gelişmiş bir veri görselleştirme
 
 
 Örnek:
-
+```
 import seaborn as sns
 import pandas as pd
 df = pd.DataFrame({"Kategori": ["A", "B", "C"], "Değer": [10, 30, 20]})
 sns.barplot(x="Kategori", y="Değer", data=df)
-
+```
 

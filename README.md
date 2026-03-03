@@ -87,7 +87,7 @@ TR
 Bu repo, Python kullanarak veri bilimi (Data Science) öğrenirken yaptığım pratikleri içerir. İçerisinde veri analizi, veri görselleştirme, ve istatistik konularına dair çeşitli çalışmalar bulunmaktadır.
 
 
-##Python Kütüphaneleri:
+## Python Kütüphaneleri:
 
   **NumPy:** Matematiksel işlemler ve çok boyutlu diziler (arrays)
 
